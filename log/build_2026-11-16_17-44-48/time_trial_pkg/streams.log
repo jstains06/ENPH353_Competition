@@ -1,0 +1,24 @@
+[2.824s] Invoking command in '/home/fizzer/2026_competition_ws/build/time_trial_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fizzer/2026_competition_ws/build/time_trial_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fizzer/2026_competition_ws/install/time_trial_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fizzer/2026_competition_ws/build/time_trial_pkg/build --no-deps symlink_data
+[3.609s] running develop
+[3.947s] running egg_info
+[3.947s] creating time_trial_pkg.egg-info
+[3.979s] writing time_trial_pkg.egg-info/PKG-INFO
+[3.979s] writing dependency_links to time_trial_pkg.egg-info/dependency_links.txt
+[3.980s] writing entry points to time_trial_pkg.egg-info/entry_points.txt
+[3.980s] writing requirements to time_trial_pkg.egg-info/requires.txt
+[3.980s] writing top-level names to time_trial_pkg.egg-info/top_level.txt
+[3.980s] writing manifest file 'time_trial_pkg.egg-info/SOURCES.txt'
+[4.042s] reading manifest file 'time_trial_pkg.egg-info/SOURCES.txt'
+[4.043s] writing manifest file 'time_trial_pkg.egg-info/SOURCES.txt'
+[4.076s] running build_ext
+[4.076s] Creating /home/fizzer/2026_competition_ws/install/time_trial_pkg/lib/python3.12/site-packages/time-trial-pkg.egg-link (link to .)
+[4.077s] Installing time_trials script to /home/fizzer/2026_competition_ws/install/time_trial_pkg/lib/time_trial_pkg
+[4.078s] 
+[4.078s] Installed /home/fizzer/2026_competition_ws/build/time_trial_pkg
+[4.078s] running symlink_data
+[4.078s] creating /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/ament_index
+[4.079s] creating /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/ament_index/resource_index
+[4.079s] creating /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/ament_index/resource_index/packages
+[4.079s] symbolically linking /home/fizzer/2026_competition_ws/build/time_trial_pkg/resource/time_trial_pkg -> /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/ament_index/resource_index/packages
+[4.079s] symbolically linking /home/fizzer/2026_competition_ws/build/time_trial_pkg/package.xml -> /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/time_trial_pkg
+[4.135s] Invoked command in '/home/fizzer/2026_competition_ws/build/time_trial_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fizzer/2026_competition_ws/build/time_trial_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fizzer/2026_competition_ws/install/time_trial_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fizzer/2026_competition_ws/build/time_trial_pkg/build --no-deps symlink_data

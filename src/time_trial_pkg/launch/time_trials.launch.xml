@@ -1,0 +1,3 @@
+<launch>
+   <node pkg="time_trial_pkg" exec="time_trials"/>
+</launch>

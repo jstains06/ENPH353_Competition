@@ -7,6 +7,14 @@
 /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/baby_yoda_npc/assets/baby_yoda_NPC.blend
 /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/baby_yoda_npc/baby_yoda_npc.sdf
 /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/baby_yoda_npc/model.config
+/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_0.jpg
+/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_1.jpg
+/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_2.jpg
+/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_3.jpg
+/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_4.jpg
+/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_5.jpg
+/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_6.jpg
+/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_7.jpg
 /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_0.sdf
 /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_1.sdf
 /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_2.sdf

@@ -1,0 +1,96 @@
+[0.507s] Invoking command in '/home/fizzer/2026_competition_ws/build/world_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/world_pkg -- -j4 -l4
+[0.586s] Invoked command in '/home/fizzer/2026_competition_ws/build/world_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/world_pkg -- -j4 -l4
+[0.587s] Invoking command in '/home/fizzer/2026_competition_ws/build/world_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/world_pkg
+[0.602s] -- Install configuration: ""
+[0.604s] -- Execute custom install script
+[0.606s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/clueboard_scripts/clue_banner.png
+[0.607s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/clueboard_scripts/clueboard_generator.py
+[0.607s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/clues.csv
+[0.608s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/fast_empty.sdf
+[0.609s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/baby_yoda_npc/assets/baby_yoda.blend
+[0.610s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/baby_yoda_npc/assets/baby_yoda.dae
+[0.610s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/baby_yoda_npc/assets/baby_yoda_NPC.blend
+[0.610s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/baby_yoda_npc/baby_yoda_npc.sdf
+[0.610s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/baby_yoda_npc/model.config
+[0.612s] -- Symlinking: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_0.jpg
+[0.634s] -- Symlinking: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_1.jpg
+[0.653s] -- Symlinking: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_2.jpg
+[0.670s] -- Symlinking: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_3.jpg
+[0.689s] -- Symlinking: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_4.jpg
+[0.708s] -- Symlinking: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_5.jpg
+[0.727s] -- Symlinking: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_6.jpg
+[0.746s] -- Symlinking: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/banners/banner_7.jpg
+[0.766s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_0.sdf
+[0.766s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_1.sdf
+[0.767s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_2.sdf
+[0.767s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_3.sdf
+[0.768s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_4.sdf
+[0.768s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_5.sdf
+[0.769s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_6.sdf
+[0.769s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/clue_board/clueboard_7.sdf
+[0.770s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/muscle_car/model.config
+[0.770s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/muscle_car/muscle_car.dae
+[0.770s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/muscle_car/muscle_car.sdf
+[0.771s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/eyebrow001-unmodified.png
+[0.772s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/eyebrow001.png
+[0.773s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/green_eye.png
+[0.773s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/jeans01_normals.png
+[0.773s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/jeans_basic_diffuse.png
+[0.774s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/male02_diffuse_black-unmodified.png
+[0.774s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/male02_diffuse_black.png
+[0.775s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/teeth.png
+[0.775s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/tshirt02_normals.png
+[0.775s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/tshirt02_texture.png
+[0.776s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/materials/young_lightskinned_male_diffuse.png
+[0.777s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/assets/walking.dae
+[0.777s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/model.config
+[0.777s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/pedestrian_npc/pedestrian_npc.sdf
+[0.777s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/terrain/assets/2023_Competition_Driving_Surface_v0.2.png
+[0.778s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/terrain/assets/Terrain_2023_v2.dae
+[0.778s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/terrain/model.config
+[0.778s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/terrain/terrain.sdf
+[0.778s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tree_fir/model.config
+[0.779s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tree_fir/tree_fir.dae
+[0.779s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tree_fir/tree_fir.sdf
+[0.779s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tree_oak/model.config
+[0.779s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tree_oak/tree_oak.dae
+[0.780s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tree_oak/tree_oak.sdf
+[0.780s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tree_poly/model.config
+[0.781s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tree_poly/tree_poly.dae
+[0.781s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tree_poly/tree_poly.sdf
+[0.782s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/truck_npc/assets/pickup.dae
+[0.783s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/truck_npc/assets/pickup_diffuse.jpg
+[0.783s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/truck_npc/assets/wheels2.jpg
+[0.785s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/truck_npc/model.config
+[0.787s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/truck_npc/truck_npc.sdf
+[0.788s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tunnel/brick.png
+[0.788s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tunnel/model.config
+[0.788s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tunnel/tunnel.dae
+[0.790s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/tunnel/tunnel.sdf
+[0.791s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/wall_long/extended_forest.png
+[0.792s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/wall_long/model.config
+[0.793s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/wall_long/wall_long.sdf
+[0.794s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/wall_short/forest.png
+[0.796s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/wall_short/model.config
+[0.797s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/wall_short/wall_short.sdf
+[0.798s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/water/model.config
+[0.799s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/water/water.sdf
+[0.800s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/wind_sock/model.config
+[0.802s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/models/wind_sock/wind_sock.sdf
+[0.803s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg//world/textures/monza.png
+[0.804s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/ament_index/resource_index/package_run_dependencies/world_pkg
+[0.805s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/ament_index/resource_index/parent_prefix_path/world_pkg
+[0.807s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/environment/ament_prefix_path.sh
+[0.808s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/environment/ament_prefix_path.dsv
+[0.811s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/environment/path.sh
+[0.813s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/environment/path.dsv
+[0.813s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/local_setup.bash
+[0.815s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/local_setup.sh
+[0.816s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/local_setup.zsh
+[0.817s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/local_setup.dsv
+[0.817s] -- Symlinking: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.dsv
+[0.847s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/ament_index/resource_index/packages/world_pkg
+[0.847s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/cmake/world_pkgConfig.cmake
+[0.847s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/cmake/world_pkgConfig-version.cmake
+[0.848s] -- Up-to-date symlink: /home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.xml
+[0.852s] Invoked command in '/home/fizzer/2026_competition_ws/build/world_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/world_pkg

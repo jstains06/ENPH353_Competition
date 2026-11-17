@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/time_trial_pkg
+time_trial_pkg/__init__.py
+time_trial_pkg/time_trials.py
+time_trial_pkg.egg-info/PKG-INFO
+time_trial_pkg.egg-info/SOURCES.txt
+time_trial_pkg.egg-info/dependency_links.txt
+time_trial_pkg.egg-info/entry_points.txt
+time_trial_pkg.egg-info/requires.txt
+time_trial_pkg.egg-info/top_level.txt
+time_trial_pkg.egg-info/zip-safe

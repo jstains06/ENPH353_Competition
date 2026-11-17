@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating time_trial_pkg.egg-info
+writing time_trial_pkg.egg-info/PKG-INFO
+writing dependency_links to time_trial_pkg.egg-info/dependency_links.txt
+writing entry points to time_trial_pkg.egg-info/entry_points.txt
+writing requirements to time_trial_pkg.egg-info/requires.txt
+writing top-level names to time_trial_pkg.egg-info/top_level.txt
+writing manifest file 'time_trial_pkg.egg-info/SOURCES.txt'
+reading manifest file 'time_trial_pkg.egg-info/SOURCES.txt'
+writing manifest file 'time_trial_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fizzer/2026_competition_ws/install/time_trial_pkg/lib/python3.12/site-packages/time-trial-pkg.egg-link (link to .)
+Installing time_trials script to /home/fizzer/2026_competition_ws/install/time_trial_pkg/lib/time_trial_pkg
+
+Installed /home/fizzer/2026_competition_ws/build/time_trial_pkg
+running symlink_data
+creating /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/ament_index
+creating /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/ament_index/resource_index
+creating /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/fizzer/2026_competition_ws/build/time_trial_pkg/resource/time_trial_pkg -> /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/fizzer/2026_competition_ws/build/time_trial_pkg/package.xml -> /home/fizzer/2026_competition_ws/install/time_trial_pkg/share/time_trial_pkg

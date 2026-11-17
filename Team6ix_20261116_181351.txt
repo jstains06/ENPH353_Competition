@@ -1,0 +1,14 @@
+18:12:36.836: Clue SIZE: 0003
+18:12:36.837: Clue VICTIM: PIT CREQ
+18:12:36.837: Clue CRIME: SABOTAGE
+18:12:36.841: Clue TIME: LAP66
+18:12:36.842: Clue PLACE: DRS ZONE
+18:12:36.844: Clue MOTIVE: FAME N GLORY
+18:12:36.845: Clue WEAPON: TORQUE HEX
+18:12:36.846: Clue BANDIT: DRIFT KING
+18:13:51.416: Message received: Team6ix,multi21,0,nothing
+18:13:51.417: Timer started.
+18:13:51.519: First command velocity received.
+18:13:55.526: Message received: Team6ix,multi21,-1,nothing
+18:13:55.528: Timer stopped: 3.33 sec sim time (real time: 4.0sec).
+18:13:55.537: Updating story ...

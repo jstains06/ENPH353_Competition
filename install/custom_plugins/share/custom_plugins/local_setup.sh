@@ -1,0 +1,1 @@
+/home/fizzer/2026_competition_ws/build/custom_plugins/ament_cmake_environment_hooks/local_setup.sh

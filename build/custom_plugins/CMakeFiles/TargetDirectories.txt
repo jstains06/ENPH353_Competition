@@ -1,0 +1,10 @@
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/uninstall.dir
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/custom_plugins_uninstall.dir
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/ResetSimPlugin.dir
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/test.dir
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/edit_cache.dir
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/rebuild_cache.dir
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/list_install_components.dir
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/install.dir
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/install/local.dir
+/home/fizzer/2026_competition_ws/build/custom_plugins/CMakeFiles/install/strip.dir

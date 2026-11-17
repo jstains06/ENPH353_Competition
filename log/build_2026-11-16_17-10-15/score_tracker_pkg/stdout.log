@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating score_tracker_pkg.egg-info
+writing score_tracker_pkg.egg-info/PKG-INFO
+writing dependency_links to score_tracker_pkg.egg-info/dependency_links.txt
+writing requirements to score_tracker_pkg.egg-info/requires.txt
+writing top-level names to score_tracker_pkg.egg-info/top_level.txt
+writing manifest file 'score_tracker_pkg.egg-info/SOURCES.txt'
+reading manifest file 'score_tracker_pkg.egg-info/SOURCES.txt'
+writing manifest file 'score_tracker_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fizzer/2026_competition_ws/install/score_tracker_pkg/lib/python3.12/site-packages/score-tracker-pkg.egg-link (link to .)
+
+Installed /home/fizzer/2026_competition_ws/build/score_tracker_pkg
+running symlink_data
+creating /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/ament_index
+creating /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/ament_index/resource_index
+creating /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/resource/score_tracker_pkg -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/package.xml -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg
+symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/score_tracker_pkg/score_tracker.py -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg
+symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/score_tracker_pkg/score_tracker.ui -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg
+symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/score_tracker_pkg/ENPHLogo.jpg -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg
+symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/score_tracker_pkg/FIZZ_CLUE.svg -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg

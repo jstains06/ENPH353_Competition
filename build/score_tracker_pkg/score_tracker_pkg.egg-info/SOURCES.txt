@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+resource/score_tracker_pkg
+score_tracker_pkg/ENPHLogo.jpg
+score_tracker_pkg/FIZZ_CLUE.svg
+score_tracker_pkg/__init__.py
+score_tracker_pkg/score_tracker.py
+score_tracker_pkg/score_tracker.ui
+score_tracker_pkg.egg-info/PKG-INFO
+score_tracker_pkg.egg-info/SOURCES.txt
+score_tracker_pkg.egg-info/dependency_links.txt
+score_tracker_pkg.egg-info/requires.txt
+score_tracker_pkg.egg-info/top_level.txt
+score_tracker_pkg.egg-info/zip-safe

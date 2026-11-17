@@ -1,0 +1,482 @@
+[0.815s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.815s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7daa82b96630>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7daa82b961e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7daa82b961e0>>, mixin_verb=('build',))
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.937s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fizzer/2026_competition_ws'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extensions ['ignore', 'ignore_ament_install']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extension 'ignore'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extension 'ignore_ament_install'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extensions ['colcon_pkg']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extension 'colcon_pkg'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extensions ['colcon_meta']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extension 'colcon_meta'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extensions ['ros']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extension 'ros'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extensions ['cmake', 'python']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extension 'cmake'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extension 'python'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extensions ['python_setup_py']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition) by extension 'python_setup_py'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extension 'ignore_ament_install'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extensions ['colcon_pkg']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extension 'colcon_pkg'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extensions ['colcon_meta']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extension 'colcon_meta'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extensions ['ros']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extension 'ros'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extensions ['cmake', 'python']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extension 'cmake'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extension 'python'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extensions ['python_setup_py']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src) by extension 'python_setup_py'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/bringup_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/bringup_nodes) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/bringup_nodes) by extension 'ignore_ament_install'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/bringup_nodes) by extensions ['colcon_pkg']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/bringup_nodes) by extension 'colcon_pkg'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/bringup_nodes) by extensions ['colcon_meta']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/bringup_nodes) by extension 'colcon_meta'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/bringup_nodes) by extensions ['ros']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/bringup_nodes) by extension 'ros'
+[1.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/2026_competition/src/bringup_nodes' with type 'ros.ament_python' and name 'bringup_nodes'
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/custom_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/custom_plugins) by extension 'ignore'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/custom_plugins) by extension 'ignore_ament_install'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/custom_plugins) by extensions ['colcon_pkg']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/custom_plugins) by extension 'colcon_pkg'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/custom_plugins) by extensions ['colcon_meta']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/custom_plugins) by extension 'colcon_meta'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/custom_plugins) by extensions ['ros']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/custom_plugins) by extension 'ros'
+[1.002s] DEBUG:colcon.colcon_core.package_identification:Package 'src/2026_competition/src/custom_plugins' with type 'ros.ament_cmake' and name 'custom_plugins'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/my_robot_bringup) by extension 'ignore'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/my_robot_bringup) by extension 'ignore_ament_install'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/my_robot_bringup) by extensions ['colcon_pkg']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/my_robot_bringup) by extension 'colcon_pkg'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/my_robot_bringup) by extensions ['colcon_meta']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/my_robot_bringup) by extension 'colcon_meta'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/my_robot_bringup) by extensions ['ros']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/my_robot_bringup) by extension 'ros'
+[1.003s] DEBUG:colcon.colcon_core.package_identification:Package 'src/2026_competition/src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/score_tracker_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/score_tracker_pkg) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/score_tracker_pkg) by extension 'ignore_ament_install'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/score_tracker_pkg) by extensions ['colcon_pkg']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/score_tracker_pkg) by extension 'colcon_pkg'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/score_tracker_pkg) by extensions ['colcon_meta']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/score_tracker_pkg) by extension 'colcon_meta'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/score_tracker_pkg) by extensions ['ros']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/score_tracker_pkg) by extension 'ros'
+[1.004s] DEBUG:colcon.colcon_core.package_identification:Package 'src/2026_competition/src/score_tracker_pkg' with type 'ros.ament_python' and name 'score_tracker_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/world_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/world_pkg) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/world_pkg) by extension 'ignore_ament_install'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/world_pkg) by extensions ['colcon_pkg']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/world_pkg) by extension 'colcon_pkg'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/world_pkg) by extensions ['colcon_meta']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/world_pkg) by extension 'colcon_meta'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/world_pkg) by extensions ['ros']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/2026_competition/src/world_pkg) by extension 'ros'
+[1.005s] DEBUG:colcon.colcon_core.package_identification:Package 'src/2026_competition/src/world_pkg' with type 'ros.ament_cmake' and name 'world_pkg'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ignore'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ignore_ament_install'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['colcon_pkg']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'colcon_pkg'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['colcon_meta']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'colcon_meta'
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extensions ['ros']
+[1.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_pkg) by extension 'ros'
+[1.007s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_pkg' with type 'ros.ament_cmake' and name 'my_robot_pkg'
+[1.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.056s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.063s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 369 installed packages in /opt/ros/jazzy
+[1.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'bringup_nodes' build argument 'cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'bringup_nodes' build argument 'cmake_target' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'bringup_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'bringup_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'bringup_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'bringup_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'bringup_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'bringup_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'bringup_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.133s] DEBUG:colcon.colcon_core.verb:Building package 'bringup_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/2026_competition_ws/build/bringup_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/2026_competition_ws/install/bringup_nodes', 'merge_install': False, 'path': '/home/fizzer/2026_competition_ws/src/2026_competition/src/bringup_nodes', 'symlink_install': True, 'test_result_base': None}
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'custom_plugins' build argument 'cmake_args' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'custom_plugins' build argument 'cmake_target' from command line to 'None'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'custom_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'custom_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.133s] Level 5:colcon.colcon_core.verb:set package 'custom_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'custom_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'custom_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'custom_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'custom_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.134s] DEBUG:colcon.colcon_core.verb:Building package 'custom_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/2026_competition_ws/build/custom_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/2026_competition_ws/install/custom_plugins', 'merge_install': False, 'path': '/home/fizzer/2026_competition_ws/src/2026_competition/src/custom_plugins', 'symlink_install': True, 'test_result_base': None}
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_args' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_target' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'my_robot_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.134s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/2026_competition_ws/build/my_robot_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/2026_competition_ws/install/my_robot_pkg', 'merge_install': False, 'path': '/home/fizzer/2026_competition_ws/src/my_robot_pkg', 'symlink_install': True, 'test_result_base': None}
+[1.134s] Level 5:colcon.colcon_core.verb:set package 'score_tracker_pkg' build argument 'cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'score_tracker_pkg' build argument 'cmake_target' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'score_tracker_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'score_tracker_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'score_tracker_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'score_tracker_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'score_tracker_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'score_tracker_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'score_tracker_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.135s] DEBUG:colcon.colcon_core.verb:Building package 'score_tracker_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/2026_competition_ws/build/score_tracker_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/2026_competition_ws/install/score_tracker_pkg', 'merge_install': False, 'path': '/home/fizzer/2026_competition_ws/src/2026_competition/src/score_tracker_pkg', 'symlink_install': True, 'test_result_base': None}
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'world_pkg' build argument 'cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'world_pkg' build argument 'cmake_target' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'world_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'world_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'world_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'world_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'world_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'world_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.135s] Level 5:colcon.colcon_core.verb:set package 'world_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.135s] DEBUG:colcon.colcon_core.verb:Building package 'world_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/2026_competition_ws/build/world_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/2026_competition_ws/install/world_pkg', 'merge_install': False, 'path': '/home/fizzer/2026_competition_ws/src/2026_competition/src/world_pkg', 'symlink_install': True, 'test_result_base': None}
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.136s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fizzer/2026_competition_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fizzer/2026_competition_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/fizzer/2026_competition_ws/src/2026_competition/src/my_robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.136s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.137s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.137s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fizzer/2026_competition_ws/src/my_robot_pkg' with build type 'ament_cmake'
+[1.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fizzer/2026_competition_ws/src/my_robot_pkg'
+[1.149s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.154s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/bringup_nodes' with build type 'ament_python'
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup_nodes', 'ament_prefix_path')
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/hook/ament_prefix_path.ps1'
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/hook/ament_prefix_path.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/hook/ament_prefix_path.sh'
+[1.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.163s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/custom_plugins' with build type 'ament_cmake'
+[1.163s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/custom_plugins'
+[1.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.168s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/score_tracker_pkg' with build type 'ament_python'
+[1.168s] Level 1:colcon.colcon_core.shell:create_environment_hook('score_tracker_pkg', 'ament_prefix_path')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/hook/ament_prefix_path.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/hook/ament_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/hook/ament_prefix_path.sh'
+[1.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/my_robot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/my_robot_pkg
+[1.574s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/bringup_nodes'
+[1.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/custom_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/2026_competition/src/custom_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/custom_plugins
+[2.218s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/score_tracker_pkg'
+[2.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/my_robot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/my_robot_pkg
+[3.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/my_robot_pkg -- -j4 -l4
+[3.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/my_robot_pkg -- -j4 -l4
+[3.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/my_robot_pkg
+[4.141s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_pkg)
+[4.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/my_robot_pkg
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg' for CMake module files
+[4.161s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg' for CMake config files
+[4.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_pkg', 'cmake_prefix_path')
+[4.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/hook/cmake_prefix_path.ps1'
+[4.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/hook/cmake_prefix_path.dsv'
+[4.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/hook/cmake_prefix_path.sh'
+[4.172s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg/bin'
+[4.172s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg/lib/pkgconfig/my_robot_pkg.pc'
+[4.173s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg/lib/python3.12/site-packages'
+[4.174s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg/bin'
+[4.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.ps1'
+[4.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.dsv'
+[4.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.sh'
+[4.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.bash'
+[4.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.zsh'
+[4.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/colcon-core/packages/my_robot_pkg)
+[4.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_pkg)
+[4.188s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg' for CMake module files
+[4.189s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg' for CMake config files
+[4.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_pkg', 'cmake_prefix_path')
+[4.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/hook/cmake_prefix_path.ps1'
+[4.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/hook/cmake_prefix_path.dsv'
+[4.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/hook/cmake_prefix_path.sh'
+[4.193s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg/bin'
+[4.193s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg/lib/pkgconfig/my_robot_pkg.pc'
+[4.194s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg/lib/python3.12/site-packages'
+[4.194s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_pkg/bin'
+[4.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.ps1'
+[4.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.dsv'
+[4.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.sh'
+[4.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.bash'
+[4.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.zsh'
+[4.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/my_robot_pkg/share/colcon-core/packages/my_robot_pkg)
+[4.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/world_pkg' with build type 'ament_cmake'
+[4.203s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/world_pkg'
+[4.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/world_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/2026_competition/src/world_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/world_pkg
+[4.698s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: extract_messages, build_scripts, install_headers, init_catalog, sdist, install, develop, symlink_data, build_ext, test, clean, dist_info, install_data, bdist_dumb, compile_catalog, build_py, upload, bdist_rpm, saveopts, upload_docs, install_lib, alias, easy_install, build, bdist, register, editable_wheel, check, bdist_wheel, build_clib, rotate, install_scripts, install_egg_info, setopt, update_catalog, egg_info, bdist_egg
+[4.701s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: extract_messages, build_scripts, install_headers, init_catalog, sdist, install, develop, symlink_data, build_ext, test, clean, dist_info, install_data, bdist_dumb, compile_catalog, build_py, upload, bdist_rpm, saveopts, upload_docs, install_lib, alias, easy_install, build, bdist, register, editable_wheel, check, bdist_wheel, build_clib, rotate, install_scripts, install_egg_info, setopt, update_catalog, egg_info, bdist_egg
+[5.691s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --site-dirs, --record, --script-dir, --multi-version, --build-directory, --help, --force-installation-into-system-dir, --no-deps, --always-unzip, --dry-run, --allow-hosts, --no-user-cfg, --zip-ok, --no-find-links, --always-copy, --prefix, --quiet, --editable, --optimize, --local-snapshots-ok, --version, --find-links, --index-url, --user, --egg-path, --install-layout, --upgrade, --exclude-scripts, --uninstall, --install-dir, --verbose
+[5.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/bringup_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fizzer/2026_competition_ws/build/bringup_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fizzer/2026_competition_ws/install/bringup_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fizzer/2026_competition_ws/build/bringup_nodes/build --no-deps symlink_data
+[5.787s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --site-dirs, --record, --script-dir, --multi-version, --build-directory, --help, --force-installation-into-system-dir, --no-deps, --always-unzip, --dry-run, --allow-hosts, --no-user-cfg, --zip-ok, --no-find-links, --always-copy, --prefix, --quiet, --editable, --optimize, --local-snapshots-ok, --version, --find-links, --index-url, --user, --egg-path, --install-layout, --upgrade, --exclude-scripts, --uninstall, --install-dir, --verbose
+[5.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/score_tracker_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fizzer/2026_competition_ws/build/score_tracker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fizzer/2026_competition_ws/install/score_tracker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fizzer/2026_competition_ws/build/score_tracker_pkg/build --no-deps symlink_data
+[6.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/world_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/2026_competition/src/world_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/world_pkg
+[6.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/world_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/world_pkg -- -j4 -l4
+[6.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/world_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/world_pkg -- -j4 -l4
+[6.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/world_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/world_pkg
+[6.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup_nodes', 'pythonpath_develop')
+[6.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/build/bringup_nodes/share/bringup_nodes/hook/pythonpath_develop.ps1'
+[6.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/bringup_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fizzer/2026_competition_ws/build/bringup_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fizzer/2026_competition_ws/install/bringup_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fizzer/2026_competition_ws/build/bringup_nodes/build --no-deps symlink_data
+[6.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/build/bringup_nodes/share/bringup_nodes/hook/pythonpath_develop.dsv'
+[6.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/build/bringup_nodes/share/bringup_nodes/hook/pythonpath_develop.sh'
+[6.969s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/bringup_nodes' for CMake module files
+[6.970s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/bringup_nodes' for CMake config files
+[6.972s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/bringup_nodes/lib'
+[6.972s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/bringup_nodes/bin'
+[6.972s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/bringup_nodes/lib/pkgconfig/bringup_nodes.pc'
+[6.973s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/bringup_nodes/lib/python3.12/site-packages'
+[6.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup_nodes', 'pythonpath')
+[6.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/hook/pythonpath.ps1'
+[6.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/hook/pythonpath.dsv'
+[6.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/hook/pythonpath.sh'
+[6.978s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/bringup_nodes/bin'
+[6.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup_nodes)
+[6.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/package.ps1'
+[6.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/package.dsv'
+[6.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/package.sh'
+[6.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/package.bash'
+[6.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/bringup_nodes/share/bringup_nodes/package.zsh'
+[6.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/bringup_nodes/share/colcon-core/packages/bringup_nodes)
+[6.992s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/my_robot_bringup' with build type 'ament_cmake'
+[6.992s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fizzer/2026_competition_ws/src/2026_competition/src/my_robot_bringup'
+[6.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/2026_competition/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/my_robot_bringup
+[7.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('score_tracker_pkg', 'pythonpath_develop')
+[7.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/build/score_tracker_pkg/share/score_tracker_pkg/hook/pythonpath_develop.ps1'
+[7.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/score_tracker_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fizzer/2026_competition_ws/build/score_tracker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fizzer/2026_competition_ws/install/score_tracker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fizzer/2026_competition_ws/build/score_tracker_pkg/build --no-deps symlink_data
+[7.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/build/score_tracker_pkg/share/score_tracker_pkg/hook/pythonpath_develop.dsv'
+[7.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/build/score_tracker_pkg/share/score_tracker_pkg/hook/pythonpath_develop.sh'
+[7.072s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/score_tracker_pkg' for CMake module files
+[7.076s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/score_tracker_pkg' for CMake config files
+[7.078s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/lib'
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/bin'
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/lib/pkgconfig/score_tracker_pkg.pc'
+[7.079s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/lib/python3.12/site-packages'
+[7.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('score_tracker_pkg', 'pythonpath')
+[7.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/hook/pythonpath.ps1'
+[7.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/hook/pythonpath.dsv'
+[7.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/hook/pythonpath.sh'
+[7.086s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/bin'
+[7.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(score_tracker_pkg)
+[7.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/package.ps1'
+[7.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/package.dsv'
+[7.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/package.sh'
+[7.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/package.bash'
+[7.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg/package.zsh'
+[7.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/colcon-core/packages/score_tracker_pkg)
+[8.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(world_pkg)
+[8.649s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg' for CMake module files
+[8.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/world_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/world_pkg
+[8.651s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg' for CMake config files
+[8.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_pkg', 'cmake_prefix_path')
+[8.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/hook/cmake_prefix_path.ps1'
+[8.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/hook/cmake_prefix_path.dsv'
+[8.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/hook/cmake_prefix_path.sh'
+[8.655s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg/bin'
+[8.655s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg/lib/pkgconfig/world_pkg.pc'
+[8.655s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg/lib/python3.12/site-packages'
+[8.656s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg/bin'
+[8.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.ps1'
+[8.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.dsv'
+[8.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.sh'
+[8.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.bash'
+[8.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.zsh'
+[8.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/world_pkg/share/colcon-core/packages/world_pkg)
+[8.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(world_pkg)
+[8.662s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg' for CMake module files
+[8.663s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg' for CMake config files
+[8.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_pkg', 'cmake_prefix_path')
+[8.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/hook/cmake_prefix_path.ps1'
+[8.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/hook/cmake_prefix_path.dsv'
+[8.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/hook/cmake_prefix_path.sh'
+[8.666s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg/bin'
+[8.667s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg/lib/pkgconfig/world_pkg.pc'
+[8.667s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg/lib/python3.12/site-packages'
+[8.668s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/world_pkg/bin'
+[8.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.ps1'
+[8.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.dsv'
+[8.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.sh'
+[8.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.bash'
+[8.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/world_pkg/share/world_pkg/package.zsh'
+[8.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/world_pkg/share/colcon-core/packages/world_pkg)
+[8.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/2026_competition/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/my_robot_bringup
+[8.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/my_robot_bringup -- -j4 -l4
+[8.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/my_robot_bringup -- -j4 -l4
+[8.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/my_robot_bringup
+[9.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[9.084s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup' for CMake module files
+[9.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fizzer/2026_competition_ws/install/my_robot_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/my_robot_bringup
+[9.085s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup' for CMake config files
+[9.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[9.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[9.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[9.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[9.088s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup/bin'
+[9.088s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[9.089s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[9.089s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup/bin'
+[9.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[9.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[9.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[9.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[9.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[9.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[9.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[9.094s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup' for CMake module files
+[9.095s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup' for CMake config files
+[9.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[9.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[9.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[9.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[9.097s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup/bin'
+[9.097s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[9.098s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup/lib/python3.12/site-packages'
+[9.098s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/my_robot_bringup/bin'
+[9.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[9.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[9.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[9.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[9.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[9.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[9.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/custom_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/2026_competition/src/custom_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/custom_plugins
+[9.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/custom_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/custom_plugins -- -j4 -l4
+[18.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/custom_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/custom_plugins -- -j4 -l4
+[18.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fizzer/2026_competition_ws/build/custom_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/custom_plugins
+[19.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_plugins)
+[19.221s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins' for CMake module files
+[19.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fizzer/2026_competition_ws/build/custom_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/custom_plugins
+[19.223s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins' for CMake config files
+[19.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_plugins', 'cmake_prefix_path')
+[19.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/cmake_prefix_path.ps1'
+[19.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/cmake_prefix_path.dsv'
+[19.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/cmake_prefix_path.sh'
+[19.225s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/lib'
+[19.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_plugins', 'ld_library_path_lib')
+[19.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/ld_library_path_lib.ps1'
+[19.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/ld_library_path_lib.dsv'
+[19.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/ld_library_path_lib.sh'
+[19.226s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/bin'
+[19.227s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/lib/pkgconfig/custom_plugins.pc'
+[19.227s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/lib/python3.12/site-packages'
+[19.227s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/bin'
+[19.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.ps1'
+[19.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.dsv'
+[19.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.sh'
+[19.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.bash'
+[19.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.zsh'
+[19.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/custom_plugins/share/colcon-core/packages/custom_plugins)
+[19.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_plugins)
+[19.231s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins' for CMake module files
+[19.231s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins' for CMake config files
+[19.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_plugins', 'cmake_prefix_path')
+[19.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/cmake_prefix_path.ps1'
+[19.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/cmake_prefix_path.dsv'
+[19.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/cmake_prefix_path.sh'
+[19.234s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/lib'
+[19.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_plugins', 'ld_library_path_lib')
+[19.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/ld_library_path_lib.ps1'
+[19.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/ld_library_path_lib.dsv'
+[19.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/hook/ld_library_path_lib.sh'
+[19.236s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/bin'
+[19.236s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/lib/pkgconfig/custom_plugins.pc'
+[19.236s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/lib/python3.12/site-packages'
+[19.237s] Level 1:colcon.colcon_core.environment:checking '/home/fizzer/2026_competition_ws/install/custom_plugins/bin'
+[19.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.ps1'
+[19.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.dsv'
+[19.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.sh'
+[19.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.bash'
+[19.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/fizzer/2026_competition_ws/install/custom_plugins/share/custom_plugins/package.zsh'
+[19.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fizzer/2026_competition_ws/install/custom_plugins/share/colcon-core/packages/custom_plugins)
+[19.242s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.243s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.259s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.259s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.275s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fizzer/2026_competition_ws/install/local_setup.ps1'
+[19.278s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fizzer/2026_competition_ws/install/_local_setup_util_ps1.py'
+[19.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fizzer/2026_competition_ws/install/setup.ps1'
+[19.284s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fizzer/2026_competition_ws/install/local_setup.sh'
+[19.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fizzer/2026_competition_ws/install/_local_setup_util_sh.py'
+[19.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fizzer/2026_competition_ws/install/setup.sh'
+[19.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fizzer/2026_competition_ws/install/local_setup.bash'
+[19.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fizzer/2026_competition_ws/install/setup.bash'
+[19.293s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fizzer/2026_competition_ws/install/local_setup.zsh'
+[19.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fizzer/2026_competition_ws/install/setup.zsh'

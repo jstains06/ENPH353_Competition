@@ -1,0 +1,46 @@
+[0.046s] Invoking command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/my_robot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/my_robot_pkg
+[0.449s] -- The C compiler identification is GNU 13.3.0
+[0.562s] -- The CXX compiler identification is GNU 13.3.0
+[0.605s] -- Detecting C compiler ABI info
+[0.784s] -- Detecting C compiler ABI info - done
+[0.818s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.823s] -- Detecting C compile features
+[0.827s] -- Detecting C compile features - done
+[0.871s] -- Detecting CXX compiler ABI info
+[1.279s] -- Detecting CXX compiler ABI info - done
+[1.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.306s] -- Detecting CXX compile features
+[1.308s] -- Detecting CXX compile features - done
+[1.336s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.905s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.100s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.452s] -- Configuring done (2.3s)
+[2.457s] -- Generating done (0.0s)
+[2.460s] -- Build files have been written to: /home/fizzer/2026_competition_ws/build/my_robot_pkg
+[2.473s] Invoked command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fizzer/2026_competition_ws/src/my_robot_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fizzer/2026_competition_ws/install/my_robot_pkg
+[2.474s] Invoking command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/my_robot_pkg -- -j4 -l4
+[2.545s] Invoked command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fizzer/2026_competition_ws/build/my_robot_pkg -- -j4 -l4
+[2.565s] Invoking command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/my_robot_pkg
+[2.583s] -- Install configuration: ""
+[2.583s] -- Execute custom install script
+[2.584s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg//urdf/common_properties.xacro
+[2.601s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg//urdf/mobile_base_gazebo.xacro
+[2.629s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg//urdf/my_robot.urdf.xacro
+[2.647s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg//rviz/urdf_config.rviz
+[2.665s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg//launch/display.launch.xml
+[2.687s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/ament_index/resource_index/package_run_dependencies/my_robot_pkg
+[2.704s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/ament_index/resource_index/parent_prefix_path/my_robot_pkg
+[2.727s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.sh
+[2.747s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/environment/ament_prefix_path.dsv
+[2.765s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.sh
+[2.786s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/environment/path.dsv
+[2.805s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.bash
+[2.824s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.sh
+[2.847s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.zsh
+[2.868s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/local_setup.dsv
+[2.891s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.dsv
+[2.919s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/ament_index/resource_index/packages/my_robot_pkg
+[2.942s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig.cmake
+[2.960s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/cmake/my_robot_pkgConfig-version.cmake
+[2.980s] -- Symlinking: /home/fizzer/2026_competition_ws/install/my_robot_pkg/share/my_robot_pkg/package.xml
+[3.003s] Invoked command in '/home/fizzer/2026_competition_ws/build/my_robot_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fizzer/2026_competition_ws/build/my_robot_pkg

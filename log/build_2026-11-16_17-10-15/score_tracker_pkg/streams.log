@@ -1,0 +1,26 @@
+[4.623s] Invoking command in '/home/fizzer/2026_competition_ws/build/score_tracker_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fizzer/2026_competition_ws/build/score_tracker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fizzer/2026_competition_ws/install/score_tracker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fizzer/2026_competition_ws/build/score_tracker_pkg/build --no-deps symlink_data
+[5.183s] running develop
+[5.538s] running egg_info
+[5.539s] creating score_tracker_pkg.egg-info
+[5.580s] writing score_tracker_pkg.egg-info/PKG-INFO
+[5.580s] writing dependency_links to score_tracker_pkg.egg-info/dependency_links.txt
+[5.581s] writing requirements to score_tracker_pkg.egg-info/requires.txt
+[5.581s] writing top-level names to score_tracker_pkg.egg-info/top_level.txt
+[5.581s] writing manifest file 'score_tracker_pkg.egg-info/SOURCES.txt'
+[5.707s] reading manifest file 'score_tracker_pkg.egg-info/SOURCES.txt'
+[5.710s] writing manifest file 'score_tracker_pkg.egg-info/SOURCES.txt'
+[5.777s] running build_ext
+[5.777s] Creating /home/fizzer/2026_competition_ws/install/score_tracker_pkg/lib/python3.12/site-packages/score-tracker-pkg.egg-link (link to .)
+[5.778s] 
+[5.779s] Installed /home/fizzer/2026_competition_ws/build/score_tracker_pkg
+[5.779s] running symlink_data
+[5.780s] creating /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/ament_index
+[5.781s] creating /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/ament_index/resource_index
+[5.782s] creating /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/ament_index/resource_index/packages
+[5.782s] symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/resource/score_tracker_pkg -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/ament_index/resource_index/packages
+[5.782s] symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/package.xml -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg
+[5.782s] symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/score_tracker_pkg/score_tracker.py -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg
+[5.782s] symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/score_tracker_pkg/score_tracker.ui -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg
+[5.782s] symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/score_tracker_pkg/ENPHLogo.jpg -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg
+[5.783s] symbolically linking /home/fizzer/2026_competition_ws/build/score_tracker_pkg/score_tracker_pkg/FIZZ_CLUE.svg -> /home/fizzer/2026_competition_ws/install/score_tracker_pkg/share/score_tracker_pkg
+[5.899s] Invoked command in '/home/fizzer/2026_competition_ws/build/score_tracker_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fizzer/2026_competition_ws/build/score_tracker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fizzer/2026_competition_ws/install/score_tracker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fizzer/2026_competition_ws/build/score_tracker_pkg/build --no-deps symlink_data
